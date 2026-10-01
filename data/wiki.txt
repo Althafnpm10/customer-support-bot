@@ -1,0 +1,51 @@
+# Cameras
+
+If a camera will not power on, check that the battery is charged and properly inserted. Try a different charging cable. If the camera still does not power on, perform a hard reset by holding the power button for 15 seconds.
+
+If a camera cannot connect to Wi-Fi, confirm that the Wi-Fi network is 2.4 GHz. Many cameras do not support 5 GHz networks. Restart the camera and router, then retry setup.
+
+If camera autofocus is hunting or blurry, clean the lens, switch to single-point autofocus, and test in good lighting. Update camera firmware if focus issues continue.
+
+If camera overheats during long video recording, reduce recording resolution, improve airflow around the body, and let the device cool for 10 to 15 minutes before resuming.
+
+If recordings are missing, check storage permissions, SD card health, and cloud subscription status.
+
+# Home Routers
+
+If a router keeps disconnecting, restart the router, check for overheating, and move it away from microwaves, cordless phones, and thick walls.
+
+If internet is slow, test with a wired Ethernet connection. If wired speed is normal, the issue may be Wi-Fi interference or weak signal.
+
+To reset a router, hold the reset button for 10 seconds until the status light blinks.
+
+If router Wi-Fi is not visible, verify Wi-Fi radio is enabled in router settings, then reboot the router and check LED status indicators.
+
+If devices connect but internet does not work, power-cycle modem and router in this order: turn both off, power on modem first, wait 2 minutes, then power on router.
+
+# WiFi Modems
+
+If the modem is online but internet is unstable, check coaxial or fiber cable tightness and avoid splitters with poor signal quality.
+
+If modem loses sync frequently, inspect event logs for signal errors, restart the modem, and contact the ISP to check line levels if errors persist.
+
+If modem LEDs show downstream lock but no upstream lock, remove unnecessary splitters and reconnect the cable directly to the main wall outlet.
+
+If Wi-Fi modem has weak coverage, place it in a central open location and switch to the least congested channel in wireless settings.
+
+# CPUs
+
+If CPU temperature is too high, check cooler mounting pressure, clean dust from heatsinks, and reapply thermal paste if temperatures remain elevated.
+
+If the system throttles under load, confirm the CPU fan curve is aggressive enough and ensure BIOS power limits are not overly restrictive.
+
+If desktop fails to boot after CPU upgrade, verify socket compatibility, BIOS version support, and that EPS power connectors are fully seated.
+
+If CPU usage stays at 100 percent when idle, check background startup apps and run a malware scan before replacing hardware.
+
+# Mobile Phones
+
+If a phone battery drains quickly, check battery usage settings, disable background apps, reduce screen brightness, and update the operating system.
+
+If a phone will not charge, inspect the charging port, try a different cable, and restart the phone.
+
+If a phone cannot connect to Wi-Fi, forget the network, restart the phone, and reconnect.

@@ -1,0 +1,33 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+
+# Python virtualenv and caches
+.venv/
+__pycache__/
+*.py[cod]
+*.so
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+uvicorn.out.log
+uvicorn.err.log
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

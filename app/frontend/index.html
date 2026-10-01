@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CU Electronics Store</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    />
+    <link rel="stylesheet" href="/static/css/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-logo">cu</span>
+        <span class="brand-name">electronics</span>
+      </div>
+      <div class="search-wrap">
+        <input id="search-input" type="text" placeholder="Search cameras, CPUs, routers, modems" />
+        <button id="search-btn">Search</button>
+      </div>
+      <div class="top-links">
+        <a href="#products">Products</a>
+        <a href="#support">Support</a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Electronics Marketplace</p>
+        <h1>Shop Certified Cameras, CPUs, Routers, and WiFi Modems</h1>
+        <p>Fast support inside the store. Use the chat icon to get technical or warranty help.</p>
+        <a href="#products" class="hero-cta">Browse Deals</a>
+      </div>
+      <div class="hero-badge">Live Support Built In</div>
+    </section>
+
+    <main id="products" class="product-grid">
+      <article class="card">
+        <div class="chip chip-camera">Camera</div>
+        <h3>Atlas CX100 Mirrorless Camera</h3>
+        <p>24MP sensor, dual-band WiFi, image stabilization.</p>
+        <div class="price">$899</div>
+      </article>
+      <article class="card">
+        <div class="chip chip-camera">Camera</div>
+        <h3>Atlas Vlog Pro 4K</h3>
+        <p>Ultra-light creator camera with fast autofocus.</p>
+        <div class="price">$549</div>
+      </article>
+      <article class="card">
+        <div class="chip chip-cpu">CPU</div>
+        <h3>ZenCore X8 Desktop CPU</h3>
+        <p>8 cores, 16 threads, boost clock up to 5.1 GHz.</p>
+        <div class="price">$359</div>
+      </article>
+      <article class="card">
+        <div class="chip chip-cpu">CPU</div>
+        <h3>ZenCore X12 Creator CPU</h3>
+        <p>12-core workstation-grade performance for heavy builds.</p>
+        <div class="price">$519</div>
+      </article>
+      <article class="card">
+        <div class="chip chip-router">Router</div>
+        <h3>AeroLink AX5400 Router</h3>
+        <p>High-speed dual-band router for home streaming.</p>
+        <div class="price">$229</div>
+      </article>
+      <article class="card">
+        <div class="chip chip-router">Router</div>
+        <h3>AeroLink Mesh Router Kit</h3>
+        <p>Whole-home mesh coverage with easy mobile setup.</p>
+        <div class="price">$299</div>
+      </article>
+      <article class="card">
+        <div class="chip chip-modem">WiFi Modem</div>
+        <h3>WaveNet DOCSIS 3.1 Modem</h3>
+        <p>Low-latency cable modem for gigabit internet plans.</p>
+        <div class="price">$189</div>
+      </article>
+      <article class="card">
+        <div class="chip chip-modem">WiFi Modem</div>
+        <h3>WaveNet Fiber Gateway</h3>
+        <p>Fiber-ready modem with advanced thermal control.</p>
+        <div class="price">$259</div>
+      </article>
+    </main>
+
+    <section id="support" class="support-strip">
+      <h2>Need help with setup, disconnections, charging, or warranty claims?</h2>
+      <p>Click the chat icon on the bottom-right to talk to support instantly.</p>
+    </section>
+
+    <button id="chat-toggle" class="chat-toggle" aria-label="Open support chatbot" title="Open support chatbot">
+      <span class="chat-icon">Chat</span>
+    </button>
+
+    <section id="chat-panel" class="chat-panel hidden" aria-live="polite">
+      <header class="chat-header">
+        <div>
+          <h3>CU Support Bot</h3>
+          <p>Tech and customer support</p>
+        </div>
+        <button id="chat-close" class="chat-close" aria-label="Close chatbot">x</button>
+      </header>
+      <div id="chat-messages" class="chat-messages">
+        <div class="msg bot">
+          Hello! Welcome to CU support main desk. Please tell me your problem, and I will direct you to the right
+          support agent.
+        </div>
+      </div>
+      <form id="chat-form" class="chat-form">
+        <input id="chat-input" type="text" placeholder="Type your message..." autocomplete="off" />
+        <button type="submit">Send</button>
+      </form>
+      <button id="chat-reset" class="chat-reset">Start New Session</button>
+    </section>
+
+    <script src="/static/js/chatbot-plugin.js"></script>
+    <script src="/static/js/app.js"></script>
+  </body>
+</html>
